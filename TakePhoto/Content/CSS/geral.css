@@ -1,0 +1,26 @@
+﻿.tamanhoLinha
+{
+    width:100% !important;
+}
+.heightModal 
+{
+    height:95%;
+}
+.insideModalHeight {
+    height: 100%;
+}
+
+.imagemUsuario {
+    display: block;
+    margin-left: 5px;
+    /*max-width: 500px !important;
+    min-width:500px;
+    max-height:410px;
+    min-height:410px;
+    height:410px;*/
+    object-fit:cover;
+    margin:auto;
+}
+
+
+
