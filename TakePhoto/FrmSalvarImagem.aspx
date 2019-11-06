@@ -42,7 +42,7 @@
                         <div style="width: 500px; margin-left: 3px; text-align: center; margin-top: 5px;">
                             <p id="fileName"></p>
                         </div>
-                        <canvas id="canvas" width="500" height="410"></canvas>
+                        <canvas id="canvas" width="640" height="480"></canvas>
                         <asp:Image ID="imgUsuario" CssClass="img-thumbnail img-responsive imagemUsuario" runat="server" />
                         <asp:TextBox runat="server" ID="txtBaseImage" Style="visibility: hidden;"></asp:TextBox>
                     </div>
@@ -84,8 +84,8 @@
                 audio: false,
                 video:
                 {
-                    width: 1280,
-                    height: 720
+                    width: 1920,
+                    height: 1080
                 }
             };
 

@@ -1663,7 +1663,6 @@
     <Content Include="Fontsawesome\webfonts\fa-solid-900.svg" />
     <Content Include="FrmSalvarImagem.aspx" />
     <Content Include="FrmTakePhoto.aspx" />
-    <Content Include="Imagem\167854.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -1807,6 +1806,7 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Imagem\" />
     <Folder Include="upload\" />
   </ItemGroup>
   <PropertyGroup>

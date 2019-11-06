@@ -43,9 +43,11 @@ namespace TakePhoto
                 
                 //Define o nome da imagem
                 usuario.sDescricaoFoto = string.Format("ID{0}_{1}.jpg", usuario.iCodUsuario, sDateTimeFormat);
-                
+
+                usuario.sCaminhoFoto = string.Format(context.Server.MapPath("IMAGEM\\{0}"), usuario.sDescricaoFoto);
+
                 //Adiciona o nome da imagem no caminho para salvar na pasta
-                usuario.sCaminhoFoto = string.Format("G:\\UPLOADS\\FOTOS\\{0}", usuario.sDescricaoFoto);               
+                //usuario.sCaminhoFoto = string.Format("G:\\UPLOADS\\FOTOS\\{0}", usuario.sDescricaoFoto);               
 
                 //Grava a imagem na pasta
                 File.WriteAllBytes(usuario.sCaminhoFoto, usuario.bFotoUsuario);
